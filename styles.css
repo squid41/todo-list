@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+
+}
+body{
+  padding: 2%;
+  background-image:linear-gradient(100deg,yellow,coral);
+  height: 100%;;
+  width: 100%;
+}
+header{
+  align-items: center;
+  text-align:center;
+  text-transform: uppercase;
+  color: white;
+}
+form{
+
+  text-align: center;
+}
+.submit1{
+  color: coral;
+  background-color: white;
+  cursor: pointer;
+
+}
+.submit1:hover {
+  color: white;
+  background-color: coral;
+}
+.todo-list{
+display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+.list-todos{
+  list-style: none;
+  min-width: 30%;
+}
+.newdiv{
+  background-color: white;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.new-list{
+  flex: 1;
+}
+.trash{
+
+  border: none;
+  color: red;
+  background-color: black;
+  padding: 5px;
+  cursor: pointer;
+}
+.complete{
+  border: none;
+  color: green;
+  background-color: black;
+  padding: 5px;
+  cursor: pointer;
+}
+.complete:hover{
+  color: black;
+  background-color: green;
+}
+.trash:hover{
+  color: black;
+  background-color: red;
+}
+
+.fa-check-circle,.fa-trash-alt{
+pointer-events: none;
+}
+.eventcompleted{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+
+  justify-content: center;
+  margin-top: 30px;
+
+}
+.select{
+  padding: 20px;
+}
